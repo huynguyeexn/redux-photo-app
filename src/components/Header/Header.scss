@@ -1,0 +1,23 @@
+.header {
+  padding: 1rem 0;
+  font-size: 1.25rem;
+
+  &__title {
+    font-weight: bold;
+  }
+  &__group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__link {
+    color: #222222;
+    transition: all 0.25s ease-in-out 0s;
+
+    &--active,
+    &:hover {
+      text-decoration: none;
+      color: (--primary);
+    }
+  }
+}

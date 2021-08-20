@@ -1,0 +1,14 @@
+.random-photo{
+    &__button{
+        margin-bottom: 1rem;
+    }
+    &__photo{
+        img{
+            display: block;
+            width: 200px;
+            height: 200px;
+            background: #ddd;
+            border-radius: .5rem;
+        }
+    }
+}
